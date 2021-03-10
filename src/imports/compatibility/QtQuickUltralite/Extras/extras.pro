@@ -3,7 +3,7 @@ TARGETPATH = QtQuick/Studio/Compatibility/QtQuickUltralite/Extras
 IMPORT_VERSION = 1.0
 
 QT += core qml quick
-QT_PRIVATE += core-private gui-private qml-private quick-private quicktemplates2-private quickcontrols2-private
+QT_PRIVATE += core-private gui-private qml-private quick-private
 
 include(extras.pri)
 

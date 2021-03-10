@@ -98,7 +98,7 @@ Q_INVOKABLE bool ImageChecker::isMonochrome(const QUrl &url)
         const auto imageId = url.path();
         image.load(imageId);
     } else {
-        qDebug() << Q_FUNC_INFO << "ColorizedImage doesn't support url.scheme: " << scheme << ", for image: " << url;
+        //qDebug() << Q_FUNC_INFO << "ColorizedImage doesn't support url.scheme: " << scheme << ", for image: " << url;
     }
 
     return isAlpha8(image);
